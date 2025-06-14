@@ -24,17 +24,55 @@ wheels/
 venv/
 ENV/
 env/
+.env
 
 # IDE
 .idea/
 .vscode/
 *.swp
 *.swo
-
-# OS
 .DS_Store
-Thumbs.db
 
 # Project specific
-downloads/
-*.log 
+downloads/*
+!downloads/.gitkeep
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.m4v
+*.mp3
+*.wav
+*.m4a
+*.aac
+
+# Logs
+*.log
+logs/
+log/
+
+# Cookies and sessions
+*.cookies
+sessions/
+instagram_sessions/
+facebook_sessions/
+tiktok_sessions/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 
